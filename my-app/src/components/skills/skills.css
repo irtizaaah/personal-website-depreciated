@@ -1,0 +1,60 @@
+.skills{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--skills-background-color);
+}
+.skills-heading_wrapper{
+  margin: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background-color: var(--skills-background-color);
+}
+
+.heading_wrapper-heading{
+  font-weight: 900;
+  font-size: 3rem;
+  color: var(--skills-heading-color);
+  background: linear-gradient(-45deg, var(--name-1-color), var(--name-2-color), var(--name-3-color), var(--name-4-color));
+	background-size: 300%;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: color_animation 5s ease-in-out infinite;
+	-moz-animation: color_animation 5s ease-in-out infinite;
+	-webkit-animation: color_animation 5s ease-in-out infinite;
+}
+.skills-visuals{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  margin: 1rem 0 0 0;
+}
+.visuals-bar_chart_container, .visuals-sphere_container{
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bar_chart_container-heading, .sphere_container-heading{
+  color: var(--skills-subheading-color);
+  font-weight: 700;
+}
+.sphere_container-credits{
+  color: var(--credits-color);
+}
+@keyframes color_animation{
+	0% { background-position: 0px 50%; }
+	50% { background-position: 100% 50%; }
+	100% { background-position: 0px 50%; }
+}
+
+  @media only screen and (max-width: 594px) {
+    .skills{
+      height: auto;
+    }
+}

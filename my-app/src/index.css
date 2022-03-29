@@ -1,0 +1,77 @@
+/* COLORS */
+:root{
+    /* BODY */
+    --background-color: #ffff;
+
+    /* TEXT */
+    --title-color: #1A374D;
+    --heading-color: #1A374D;
+    --subtitle-color: #6f7f9b;
+    --paragraph-color: #404750;
+    --link-color: #6f7f9b;
+    --link-hover-color: #a2b3ce;
+
+    --name-1-color: #7DEDFF;
+    --name-2-color: #7C83FD;
+    --name-3-color: #96BAFF;
+    --name-4-color: #88FFF7;
+
+    /* NAV */
+    --nav-background-color: #ffff;
+    --list-item-color: #6f7f9b;
+    --list-item-hover-color: #a2b3ce;
+    --list-item-active-color: #1A374D;
+
+    /*SKILLS*/
+    --skills-heading-color: #ffff;
+    --skills-background-color: #101113;
+    --tag-background-color: rgb(148, 185, 255, 0.3);
+    --tag-text-color: #fff;
+    --skills-subheading-color: rgb(98, 118, 155);
+    --credits-color: #25272b;
+
+    /*WORK*/
+    --gif-border-color: #d8dee9;
+    --gif-shadow-color: #c3c8d3;
+
+}
+
+/* DEFAULT */
+
+* /* Remove all default formatting */
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'roboto';
+    font-weight: 400;
+}
+
+body{
+    background-color: var(--background-color);
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    color: var(--heading-color);
+}
+
+a{
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+p{
+    /* line-height: 1.5; */
+    color: var(--paragraph-color);
+}
+
+ul{
+    list-style: none;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+}
+
+

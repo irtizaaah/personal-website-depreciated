@@ -1,0 +1,26 @@
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--nav-background-color);
+}
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-item, .list-item-active{
+    text-align: center;
+    margin: 1rem;
+}
+.list-item{
+    color: var(--list-item-color);
+    transition: 0.3s;
+}
+.list-item:hover{
+    color: var(--list-item-hover-color);
+}
+.list-item-active{
+    color: var(--list-item-active-color);
+}
