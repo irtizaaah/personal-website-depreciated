@@ -6,7 +6,7 @@
   background-color: var(--skills-background-color);
 }
 .skills-heading_wrapper{
-  margin: 3rem;
+  margin: 3rem 0 3rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
