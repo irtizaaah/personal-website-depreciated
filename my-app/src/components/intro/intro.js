@@ -1,6 +1,6 @@
 import './intro.css';
-const profile = process.env.PUBLIC_URL + "../../resources/profile/headshot.png";
-const handwave = process.env.PUBLIC_URL + "../../resources/hand-emoji/waving-hand-animation.gif";
+const profile = process.env.PUBLIC_URL + "/resources/profile/headshot.png";
+const handwave = process.env.PUBLIC_URL + "/resources/hand-emoji/waving-hand-animation.gif";
 
 function Intro() {
   return (

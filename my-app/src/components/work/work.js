@@ -15,6 +15,7 @@ function Work() {
   
   const workElements = workItems.map(item => 
     <Card 
+      key = {item.key}
       name = {item.name} 
       gif = {process.env.PUBLIC_URL + item.gif} 
       description = {item.description} 

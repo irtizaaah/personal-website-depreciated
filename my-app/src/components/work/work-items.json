@@ -1,8 +1,9 @@
 {
 "workItems" : [
     {
+      "key" : "1",
       "name" : "Navigation Simulator",
-      "gif" : "../../resources/demos/navigation_system-fast_demo.gif",
+      "gif" : "/resources/demos/navigation_system-fast_demo.gif",
       "description" : "Visualizes fastest route to a destination on a maze-map with traffic using Dijkstra's Algorithm",
       "link" :  
       {
@@ -12,8 +13,9 @@
       "position" : 1
     },
     {
+      "key" : "2",
       "name" : "NBA Player Dashboard",
-      "gif" : "../../resources/demos/nba_player_stats-fast_demo.gif",
+      "gif" : "/resources/demos/nba_player_stats-fast_demo.gif",
       "description" : "Searches and graphs player data, fetched from NBA API",
       "link" :  
       {
@@ -23,8 +25,9 @@
       "position" : 2
     },
     {
+      "key" : "3",
       "name" : "NASA Program",
-      "gif" : "../../resources/demos/nasa_program-slideshow.gif",
+      "gif" : "/resources/demos/nasa_program-slideshow.gif",
       "description" : "Worked together in a team to build a mock Mars Rover prototype for a competition.\nDesigned and was responsible for all the code in the mock Mars Rover.\nWon the most valuable person award.",
       "link" :  
       {

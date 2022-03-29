@@ -18,7 +18,7 @@ function Skills() {
         <div className="visuals-sphere_container">
           <h2 className="sphere_container-heading">Coursework</h2>
           <WordSphere />
-          <a class = "sphere_container-credits" href="https://github.com/cong-min">Reactified version of Cong Min's code</a>
+          <a className = "sphere_container-credits" href="https://github.com/cong-min">Reactified version of Cong Min's code</a>
         </div>
       </div>
     </div>

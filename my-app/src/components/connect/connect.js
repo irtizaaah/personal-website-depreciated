@@ -1,5 +1,5 @@
 import './connect.css';
-const thumbsUp = process.env.PUBLIC_URL + "../../resources/hand-emoji/thumbs-up-animation.gif";
+const thumbsUp = process.env.PUBLIC_URL + "/resources/hand-emoji/thumbs-up-animation.gif";
 
 function Connect() {
   return (
