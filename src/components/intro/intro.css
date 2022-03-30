@@ -1,0 +1,113 @@
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+.intro-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+.header-image{
+    width: 12rem;
+    margin: 1rem;
+    z-index: -1;
+}
+.header-greeting{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+.greeting-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.title-text{
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.text-name{
+    background: linear-gradient(-45deg, var(--name-1-color), var(--name-2-color), var(--name-3-color), var(--name-4-color));
+	background-size: 300%;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: color_animation 5s ease-in-out infinite;
+	-moz-animation: color_animation 5s ease-in-out infinite;
+	-webkit-animation: color_animation 5s ease-in-out infinite;
+}
+
+@keyframes color_animation{
+	0% { background-position: 0px 50%; }
+	50% { background-position: 100% 50%; }
+	100% { background-position: 0px 50%; }
+}
+
+.title-image{ 
+    width: 4.55rem;
+    height: 4.55rem;
+}
+
+.greeting-subtitle{
+    text-align: center;
+    width: 23rem;
+    font-size: 1.2rem;
+    color: var(--subtitle-color)
+}
+
+.intro-description{
+    font-size: 1.1rem;
+    text-align: left;
+    margin: 1rem;
+    padding: 1rem;
+    width: 34rem;
+    
+    animation: fade_in_animation ease 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+}
+
+@keyframes fade_in_animation{
+    0% {
+        opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .title-text{
+        text-align: left;
+    }
+    .title-image{ 
+        width: 6.55rem;
+        height: 6.55rem;
+    }
+    .greeting-subtitle{
+        text-align: center;
+        width: auto;
+    }
+    .intro-description {
+        width: auto;
+      }
+}
+
+@media only screen and (max-width: 450px) {
+    .greeting-title{
+        flex-direction: column;
+    }
+    .title-text{
+        text-align: center;
+    }
+}
