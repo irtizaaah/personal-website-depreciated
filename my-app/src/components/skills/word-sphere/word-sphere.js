@@ -3,13 +3,26 @@ import TagCloud from './tag-cloud.js';
 import React, { useState, useEffect } from 'react';
 
 function WordSphere() {
-  const [tags, setTags] = useState(['Data\nStructures', 'Algorithm\nAnalysis',
-                                    'C++', 'Object Oriented\nProgramming', 'Computer\nArchitecture',
-                                    'Assembly\nLanguage', 'Deep\nLearning','Web\nDevelopment','React JS',
-                                    'Software\nEngineering', 'Discrete\nStructures', 'Computation\nTheory',
-                                    'Java', 'Python'
+  const [tags, setTags] = useState(["Concepts of Programming Languages", 
+                                    "Data Structures", 
+                                    "Analysis of Algorithms", 
+                                    "Computer Architecture", 
+                                    "Operating System",
+                                    "Computer Networks",
+                                    "Security and Information Assurance", 
+                                    "Database Architecture", 
+                                    "Deep Learning",
+                                    "Web Development",
+                                    "Software Engineering", 
+                                    "Statistics & Probability for Engineers",
+                                    "CS I (Introduction to Programming)", 
+                                    "CS II (Object Oriented Programming)", 
+                                    "Assembly Language",
+                                    "Calculus I - III",
+                                    "Linear Algebra",
+                                    "Discrete Mathematics",
+                                    "Physics (Classical Mechanics)"
                                   ]);
-
   useEffect(() => {
     var tagCloud = TagCloud('.word_sphere-content', tags,{
       radius: 150, // radius in px
