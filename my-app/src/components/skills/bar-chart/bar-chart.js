@@ -3,8 +3,8 @@ import {Bar} from 'react-chartjs-2';
 import Chart from 'chart.js/auto';
 
 const DATA = {
-  labels: ['JavaScript', 'HTML & CSS', 'C++', 'Python',
-           'Java', 'Assembly'],
+  labels: ['JavaScript', 'HTML & CSS', 'Java', 'C++', 'Go',
+           'Python', 'Git', 'Assembly'],
   datasets: [
     {
       label: 'Programming Languages',
@@ -13,7 +13,7 @@ const DATA = {
       borderRadius: Number.MAX_VALUE,
       borderWidth: 2,
       borderSkipped: false,
-      data: [5, 5, 4, 2, 2, 2]
+      data: [5, 5, 4, 4, 3, 3, 3, 2]
     }
   ]
 }
