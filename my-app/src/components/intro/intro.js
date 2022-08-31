@@ -17,9 +17,7 @@ function Intro() {
       </div>
       <div className = "intro-description">
         <p>
-          I'm a fourth year Computer Science Major with an associates degree in Mathematics. 
-          I love coding, sitcoms, pretty art, sad music, and basketball (Go Warriors!)... 
-          Feel free to hit me up.
+          I'm a Software Engineering Fellow and NASA Scholar with a Computer Science B.S. & Mathematics A.S. with experience working in collaborative front-end and back-end projects.
         </p>
       </div>
     </div>

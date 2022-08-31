@@ -4,7 +4,7 @@
       "key" : "1",
       "name" : "Navigation Simulator",
       "gif" : "/resources/demos/navigation_system-fast_demo.gif",
-      "description" : "Visualizes fastest route to a destination on a maze-map with traffic using Dijkstra's Algorithm",
+      "description" : "Built simulator to visualize the fastest route to a destination on a maze with traffic using Dijkstra's Algorithm. Designed a user-friendly interface to allow users to draw custom mazes and add traffic weights on a 2D grid. Efficiently implemented CSS animation in functional ReactJS to render visualization on 300+ grid cells.",
       "link" :  
       {
         "source" : "https://github.com/irtizaaah/navigation-simulator.git",
@@ -28,7 +28,7 @@
       "key" : "3",
       "name" : "NASA Program",
       "gif" : "/resources/demos/nasa_program-slideshow.gif",
-      "description" : "Worked together in a team to build a mock Mars Rover prototype for a competition.\nDesigned and was responsible for all the code in the mock Mars Rover.\nWon the most valuable person award.",
+      "description" : "Competed in a team to build a mock Mars rover at JPL (Jet Propulsion Labs). Took ownership and responsibility for the mock Mars rover’s entire code base. Won the “Most Valuable Person Award” for impactful contribution to the team’s success.",
       "link" :  
       {
         "source" : "https://www.flickr.com/people/nasa-jpl/",
