@@ -8,7 +8,7 @@
       "link" :  
       {
         "source" : "https://github.com/irtizaaah/navigation-simulator.git",
-        "title" : "View Source Code"
+        "title" : "View Source Code & Deployment"
       },
       "position" : 1
     },
@@ -35,6 +35,18 @@
         "title" : "View More"
       },
       "position" : 3
+    },
+    {
+      "key" : "4",
+      "name" : "Enterprise Chat App",
+      "gif" : "/resources/demos/enterprise_chat_app-fast_demo.gif",
+      "description" : "Built enterprise chat app to allow employees to communicate over a server. Worked with team to create requirement documentation and design documentation. Responsible for implementing client/server socket communication system and chat user interface. Abstracted code into easy-to-use libraries for the rest of the team, speeding up development and reducing 30% of code written.",
+      "link" :  
+      {
+        "source" : "https://github.com/irtizaaah/cs401-software_engineering.git",
+        "title" : "View Source Code"
+      },
+      "position" : 4
     }
 
   ]
