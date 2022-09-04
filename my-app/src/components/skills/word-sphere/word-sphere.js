@@ -1,8 +1,12 @@
 import './word-sphere.css';
+import useWindowDimensions from './utility';
 import TagCloud from './tag-cloud.js';
 import React, { useState, useEffect } from 'react';
 
 function WordSphere() {
+  const {height, width} = useWindowDimensions();
+  const radius = width <= 594 ? 120 : 150;
+
   const [tags, setTags] = useState(["Concepts of Programming Languages", 
                                     "Data Structures", 
                                     "Analysis of Algorithms", 
@@ -25,7 +29,7 @@ function WordSphere() {
                                   ]);
   useEffect(() => {
     var tagCloud = TagCloud('.word_sphere-content', tags,{
-      radius: 150, // radius in px
+      radius: radius, // radius in px
       maxSpeed: 'normal', // animation speed (slow, normal, fast)
       initSpeed: 'normal',
       direction: 135, // 0 = top, 90 = left, 135 = right-bottom

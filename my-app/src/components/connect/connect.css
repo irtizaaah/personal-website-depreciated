@@ -1,5 +1,11 @@
 .connect-image{ 
     margin: 2rem;
-    width: 20rem;
-    height: 20rem;
+    width: 30vw;
+    height: 30vw;
+}
+@media only screen and (max-width: 594px) {
+    .connect-image{
+        width: 60vw;
+        height: 60vw;
+    }
 }

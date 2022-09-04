@@ -45,6 +45,7 @@
 	animation: color_animation 5s ease-in-out infinite;
 	-moz-animation: color_animation 5s ease-in-out infinite;
 	-webkit-animation: color_animation 5s ease-in-out infinite;
+    white-space: nowrap;
 }
 
 @keyframes color_animation{
@@ -68,8 +69,6 @@
 .intro-description{
     font-size: 1.1rem;
     text-align: left;
-    margin: 1rem;
-    padding: 1rem;
     width: 34rem;
     
     animation: fade_in_animation ease 3s;
@@ -101,6 +100,25 @@
     .intro-description {
         width: auto;
       }
+}
+
+@media only screen and (max-width: 594px) {
+    .intro{
+        width: 80vw;
+    }
+    .intro-header{
+        width: 80vw;
+    }
+    .header-greeting{
+        width: 80vw;
+    }
+    .greeting-title{
+        width: 80vw;
+    }
+    
+    .title-text{
+        width: 80vw;
+    }
 }
 
 @media only screen and (max-width: 450px) {

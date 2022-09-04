@@ -4,7 +4,6 @@ import WordSphere from './word-sphere/word-sphere.js';
 import React, { useState, useEffect } from 'react';
 
 function Skills() {
-
   return (
     <div className="skills">
     <div className='skills-heading_wrapper'>

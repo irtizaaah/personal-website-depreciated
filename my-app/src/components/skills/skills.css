@@ -15,9 +15,9 @@
 }
 
 .heading_wrapper-heading{
-  font-weight: 900;
+  margin: 3rem;
+  font-weight: 700;
   font-size: 3rem;
-  color: var(--skills-heading-color);
   background: linear-gradient(-45deg, var(--name-1-color), var(--name-2-color), var(--name-3-color), var(--name-4-color));
 	background-size: 300%;
 	-webkit-background-clip: text;
@@ -56,5 +56,11 @@
   @media only screen and (max-width: 594px) {
     .skills{
       height: auto;
+    }
+    .skills-visuals{
+      width: 100vw;
+    }
+    .visuals-bar_chart_container, .visuals-sphere_container{
+      width: 100vw;
     }
 }
